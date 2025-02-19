@@ -38,7 +38,7 @@ function makeMove(index) {   //функция делающая ход (нажа�
 }
 
 function checkResult() {
-    let currentplayer = makeMove(2); //вместо 2 поставить documentqueryselector
+    let currentplayer = makeMove(5); //вместо 2 поставить documentqueryselector
            
     if (currentplayer == undefined) {
         return;
